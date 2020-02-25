@@ -1,0 +1,14 @@
+ball 0.05
+velocity lognormal 0.5 0.75 4
+start 2.5 2.5
+friction -0.1
+terminal 0.01
+elasticity 0.95
+
+line 0 0 0 5
+line 0 5 5 5
+line 5 5 5 0
+line 5 0 0 0
+
+measure inside 0.2 0.2 4.8 4.8
+measure all 0 0 5 5
